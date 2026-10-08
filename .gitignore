@@ -1,49 +1,21 @@
-# =========================
-# MATLAB / Simulink
-# =========================
-slprj/
-*.slxc
-*.autosave
-*.asv
-*.m~
-*.mex*
-*.mat~
-codegen/
+# MATLAB
+/MATLAB/**
+!/MATLAB/**/
+!/MATLAB/**/*.m
+!/MATLAB/**/*.slx
 
-# =========================
-# Vivado temporary/generated
-# =========================
-.Xil/
-*.jou
-*.log
-*.str
-*.wdb
-*.pb
-*.xpr
-*.do
-*.ini
-*.sh
-*.f
+# Vivado generated project
+/Vivado/
 
-Trumpf_Project.ip_user_files/
-*.cache/
-*.runs/
-*.sim/
-*.gen/
-*.hw/
+# IP Cores
+/IP_Cores/**
+!/IP_Cores/**/
+!/IP_Cores/**/*.xci
 
-ip_user_files/
 
-# Generated checkpoints
-*.dcp
 
-# generated text files
-*.txt
 
-# =========================
-# OS / Editor
-# =========================
-.DS_Store
-Thumbs.db
-*.swp
-*.tmp
+
+
+
+
