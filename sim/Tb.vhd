@@ -94,7 +94,7 @@ end process;
 
 	Read_Input_Vector: process(Clock)
 	
-		file		input_text	: text open read_mode is "C:\Users\Hasan\My_Projects\DSP\Temp2\Matlab\input_Vec.txt";
+		file		input_text	: text open read_mode is "C:\Users\Hasan\My_Projects\DSP\Trumpf_Project\matlab\input_Vec.txt";
 		variable LI1			: line;
 		variable LI1_var		: integer;
 		
@@ -113,7 +113,7 @@ end process;
 
 	write_Output_Vector: process(Clock)
 	
-		file 		output_text	: text open write_mode is "C:\Users\Hasan\My_Projects\DSP\Temp2\Matlab\Output_Vec_VHDL.txt";
+		file 		output_text	: text open write_mode is "C:\Users\Hasan\My_Projects\DSP\Trumpf_Project\matlab\Output_Vec_VHDL.txt";
 		variable LO1			: line;
 		
 	begin
