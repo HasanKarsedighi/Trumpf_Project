@@ -1,0 +1,49 @@
+# =========================
+# MATLAB / Simulink
+# =========================
+slprj/
+*.slxc
+*.autosave
+*.asv
+*.m~
+*.mex*
+*.mat~
+codegen/
+
+# =========================
+# Vivado temporary/generated
+# =========================
+.Xil/
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+*.xpr
+*.do
+*.ini
+*.sh
+*.f
+
+Trumpf_Project.ip_user_files/
+*.cache/
+*.runs/
+*.sim/
+*.gen/
+*.hw/
+
+ip_user_files/
+
+# Generated checkpoints
+*.dcp
+
+# generated text files
+*.txt
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
